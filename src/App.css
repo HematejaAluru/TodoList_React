@@ -1,0 +1,60 @@
+
+body{
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.App{
+  font-family: 'Roboto', sans-serif;
+  border-radius: 10px;
+  min-height: 520px;
+  width:560px;
+  margin: 40px auto;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#fff,#fff),radial-gradient(circle at top left,#12c2e9,#c471ed,#f64f59);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+  
+}
+#todoform input::placeholder{
+  font-family: 'Roboto', sans-serif;
+  
+  color: rgb(0,0,0);
+}
+#todoform input{
+  
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-color: #444444;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  width: 400px;
+  height: 50px;
+  margin: 20px;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-image: linear-gradient(#fff,#fff),radial-gradient(circle at top left,#12c2e9,#c471ed,#f64f59);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+}
+#todoform input:focus{
+  outline: none;
+}
+#todoform button{
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  background-color: #ff5656;
+  background-origin: border-box;
+  background-clip: border-box;
+  width: 80px;
+  height: 50px;
+  border-radius: 15px;
+  border: none;
+}
+#todoform button:focus{
+  font-family: 'Roboto', sans-serif;
+  outline: none;
+}

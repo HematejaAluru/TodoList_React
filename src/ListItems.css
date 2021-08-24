@@ -1,0 +1,31 @@
+.list{
+    color: rgb(0, 0, 0);
+    width: 504px;
+    height: 52px;
+    text-size-adjust: 10px;
+
+    border-radius: 15px;
+    text-align: left;
+    text-indent: 13px;
+    border: 2px solid transparent;
+    background-image: linear-gradient(#fff,#fff),radial-gradient(circle at top left,#12c2e9,#c471ed,#f64f59);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    background-color: #bf07ac;
+    margin: 20px ;
+    float: left;
+    display: inline-block;
+}
+.list p{
+    padding: -1px;
+}
+.trash{
+    list-style: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    margin-left:450px;
+    margin-top: -25px;
+    background-image: url("./staticfiles/4848.png");
+    
+}
